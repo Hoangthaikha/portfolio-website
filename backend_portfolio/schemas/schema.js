@@ -5,7 +5,7 @@ import createSchema from "part:@sanity/base/schema-creator";
 import schemaTypes from "all:part:@sanity/base/schema-type";
 
 import testimonials from './testimonials'
-import about from './about'
+import about from './abouts'
 import works from './works'
 import workexperience from './workexperience'
 import skills from './skills'

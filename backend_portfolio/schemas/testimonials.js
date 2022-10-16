@@ -14,7 +14,7 @@ export default {
             type: 'string'
         },
         {
-            name: 'imageurl',
+            name: 'imageUrl',
             title: 'Hình ảnh',
             type: 'image',
             options:{
