@@ -1,16 +1,16 @@
 export default{
     name:'experiences',
-    title:'Kinh nghiệm',
+    title:'Experiences',
     type: 'document',
     fields:[
         {
             name:'year',
-            title:'Năm',
+            title:'Year',
             type:'string'
         },
         {
             name:'works',
-            title:'Công việc',
+            title:'Works',
             type:'array',
             of:[{ type:'workExperience'}]
         },

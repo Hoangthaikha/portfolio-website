@@ -1,11 +1,11 @@
 export default {
     name: 'skills',
-    title: 'Kỹ năng',
+    title: 'Skills',
     type: 'document',
     fields: [
         {
             name: 'name',
-            title: 'Tên kĩ năng',
+            title: 'Name',
             type: 'string'
         },
         {
@@ -14,21 +14,13 @@ export default {
             type: 'string'
         },
         {
-            name: 'imageurl',
-            title: 'Hình ảnh',
-            type: 'image',
-            options:{
-                hotspot: true,
-            }
-        },
-        {
             name: 'icon',
             title: 'Icon',
             type: 'image',
             options: {
                 hotspot: true,
             }
-        },
+        }
     ]
 
 }

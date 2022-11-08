@@ -1,32 +1,32 @@
 export default {
     name: 'works',
-    title: 'Công việc',
+    title: 'Works',
     type: 'document',
     fields: [
       {
         name: 'title',
-        title: 'Tiêu đề',
+        title: 'Title',
         type: 'string',
       },
     
       {
         name: 'description',
-        title: 'Mô tả',
+        title: 'Description',
         type: 'string',
       },
       {
         name: 'projectLink',
-        title: 'Dự án đã tham gia',
+        title: 'ProjectLink',
         type: 'string',
       },
       {
         name: 'codeLink',
-        title: 'Đường dẫn nguồn dự án',
+        title: 'CodeLink',
         type: 'string',
       },
       {
         name: 'imgUrl',
-        title: 'Hình ảnh',
+        title: 'ImageUrl',
         type: 'image',
         options: {
           hotspot: true,
@@ -44,7 +44,6 @@ export default {
            type:'string'
          }
        ]
-      },
-     
-    ],
-  };
+      }
+    ]
+  }

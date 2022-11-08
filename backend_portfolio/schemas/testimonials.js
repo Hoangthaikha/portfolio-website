@@ -14,12 +14,12 @@ export default {
             type: 'string'
         },
         {
-            name: 'imageUrl',
-            title: 'Hình ảnh',
+            name:'imgUrl',
+            title:'imgurl',
             type: 'image',
-            options:{
-                hotspot: true,
-            }
+            options: {
+              hotspot: true,
+            },
         },
         {
             name: 'feedback',
